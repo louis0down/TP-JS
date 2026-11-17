@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(225, 255, 255);
+}
+p {
+    color: red;
+}
+h1{
+    color:darkred;
+    font-size: 40px;
+}
+h2{
+    color:rgba(0, 0, 255, 0.3);
+}
+li{
+    color: #FF44DD;
+}
+
+.center{
+    text-align: center;
+    color: #0000FF;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+#pond{
+    display: flex;
+    
+}
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.contact{
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr;
+    display: grid;
+    border: 1px solid black;
+    column-rule: 1px solid black;
+    row-rule: 1px solid black;
+}
+
+.navigation{
+    font-size: 30px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+#header{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    text-align: center;
+    font-size: 40px;
+}
+
+.email{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    text-align: center;
+    font-size: 25px
+}
+
+#self_portrait{
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.leagueID{
+    color:#0000FF;
+    font-size: 20px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    align-content: center;
+}
+
+#à_propos{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.border{
+    border: 5px solid black;
+}
