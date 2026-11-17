@@ -61,7 +61,10 @@ li{
     column-rule: 1px solid black;
     row-rule: 1px solid black;
 }
-
+#galerie{
+    grid-column-start: 0;
+    grid-row-start: 2;
+}
 .navigation{
     font-size: 30px;
     grid-column-start: 1;
