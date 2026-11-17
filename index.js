@@ -3,3 +3,4 @@ function theme(event) {
     console.log("working");
     document.body.classList.toggle("sombre");
 }
+
