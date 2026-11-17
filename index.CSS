@@ -1,23 +1,39 @@
+:root {
+  --fond: #ffffff;
+  --fond-section: #ffffff;
+  --texte: #000000;
+}
+
+body.sombre {
+  --fond: #271a2b;
+  --fond-section: #000000;
+  --texte: #ffffff;
+}
+
 body {
-    background-color: rgb(225, 255, 255);
+    background-color: var(--fond);
 }
+
 p {
-    color: red;
+    color: var(--texte);
 }
+
 h1{
-    color:darkred;
+    color:var(--texte);
     font-size: 40px;
 }
+
 h2{
-    color:rgba(0, 0, 255, 0.3);
+    color:var(--texte);
 }
+
 li{
-    color: #FF44DD;
+    color:var(--texte);
 }
 
 .center{
     text-align: center;
-    color: #0000FF;
+    color:var(--texte);
 }
 
 .container{
@@ -25,15 +41,18 @@ li{
     flex-direction: row;
     flex-wrap: wrap;    
 }
+
 #pond{
     display: flex;
     
 }
+
 #grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+
 .contact{
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 3fr;
